@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/login.css">
+    <title>Project Binder - Login</title>
+</head>
+<body>
+    <section class="header">
+        <h2>Project Binder</h2>
+    </section>
+
+    <section class="main">
+        <form action="/sign" method="POST" class="form-login">
+            <h2>Faça login</h2>
+            <label for="">Digite seu e-mail:</label>
+            <input type="email" name="emailLogin">
+            <label for="">Digite sua senha:</label>
+            <input type="password" name="passwordLogin">
+            <button type="submit" class="btn-login">Enviar</button>
+            <a href="/" class="description-login">Ainda não possui uma conta? Crie a sua aqui!</a>
+        </form>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por <a href="#">Vinicius Soares</a></p>
+    </footer>
+</body>
+</html>

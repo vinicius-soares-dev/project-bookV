@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/initial.css">
+    <title>Login</title>
+</head>
+<body>
+    <section class="header">
+        <h1 class="tittle-header">Project Binder</h1>
+        <nav class="nav-bar">
+            <ul class="list-navBar">
+                <li class="option-navBar">
+                    <a href="/" class="link-navBar">Sair</a></li>
+            </ul>
+        </nav>
+        
+    </section>
+
+    <section class="main">
+        <form action="/contacts" method="POST" class="form-initial">
+            <h2 class="tittle-form">Adicione um novo contato</h2>
+            <p class="description-form">Preencha os campos abaixo com as informações do contato:</p>
+            <label for="">Nome:*</label>
+            <input type="text" name="firstname">
+            <label for="">Sobrenome:*</label>
+            <input type="text" name="lastname">
+            <label for="">email:</label>
+            <input type="email" name="emailcontact">
+            <label for="">telefone:*</label>
+            <input type="tel" name="telcontact">
+            <button type="submit" class="btn-form">Adicionar</button>
+            <a href="#" class="view-contact">Visualizar contatos</a>
+        </form>
+    </section>
+</body>
+</html>

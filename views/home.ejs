@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <title>Project Binder</title>
+</head>
+<body>
+    <section class="description">
+        <h1 class="tittle-description">Project Binder</h1>
+        <p class="paragraph-description">Faça seu cadastro para acessar a agenda</p>
+    </section>
+
+    <section class="container">
+        <form action="/cadastred" class="form-signUp" method="POST">
+            <h2>Cadastre-se</h2>
+            <div class="error">
+                <p class="error-msg"></p>
+            </div>
+            <label for="">Digite seu e-mail:</label>
+            <input type="email" class="email" name="emailsign">
+            <label for="">Crie uma senha:</label>
+            <input type="password" class="password" name="passwordsign">
+            <button class="btn" type="submit">Cadastrar</button>
+            <a href="/login">Já possui uma conta? Acesse por aqui</a>
+        </form>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por <a href="#">Vinicius Soares</a></p>
+    </footer>
+
+    <!-- <script src="/public/js/script.js"></script> -->
+</body>
+</html>

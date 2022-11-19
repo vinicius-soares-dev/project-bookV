@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+:root {
+    --font-main: 'Montserrat', sans-serif;
+    --font-secundary: 'Poppins', sans-serif;
+    --color-main: #010221;
+    --color-emphasis: #0A7373;
+    --color-secundary: #B7BF99;
+}
+
+
+
+*, 
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: var(--color-main);
+    overflow-x: hidden;
+}
+
+.header {
+    background: var(--color-secundary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0px 8px 16px 0px #000000;
+}
+
+.header > .tittle-header {
+    font-family: var(--font-main);
+    text-transform: uppercase;
+    color: var(--color-main);
+    font-weight: bolder;
+    letter-spacing: 1em;
+}
+
+.header > .nav-bar > .list-navBar {
+    list-style: none;
+}
+
+.header > .nav-bar > .list-navBar > .option-navBar > .link-navBar {
+    text-decoration: none;
+    font-family: var(--font-secundary);
+    font-size: 2em;
+    color: var(--color-main);
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.form-initial {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-secundary);
+    padding: 2em;
+    box-shadow: 0px 0px 13px 5px #000000;
+    border-top-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+.form-initial > .tittle-form {
+    font-family: var(--font-main);
+
+}
+
+.form-initial > .description-form {
+    font-family: var(--font-secundary);
+    padding: 1em;
+}
+
+.form-initial > label {
+    font-family: var(--font-secundary);
+    padding: 0.5em;
+}
+
+.form-initial > input {
+    padding: 0.2em;
+    border-color: var(--color-emphasis);
+    background: var(--color-main);
+    color: var(--color-secundary);
+}
+
+.form-initial > .btn-form {
+    padding: 0.3em;
+    background: var(--color-main);
+    color: var(--color-secundary);
+    font-family: var(--font-secundary);
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+.form-initial > .btn-form:hover {
+    background: var(--color-emphasis);
+    color: var(--color-main);
+    transition: 2s;
+
+}
+
+.form-initial > .view-contact {
+    text-decoration: none;
+    font-family: var(--font-secundary);
+    margin-top: 10px;
+    color: var(--color-main);
+}
